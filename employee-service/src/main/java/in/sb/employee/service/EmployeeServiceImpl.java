@@ -13,6 +13,7 @@ import org.springframework.web.client.RestTemplate;
 import java.util.List;
 
 @Service
+//added service class
 public class EmployeeServiceImpl implements EmployeeService {
 
     private final EmployeeRepository employeeRepository;
